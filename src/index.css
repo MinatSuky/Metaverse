@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* portatil L --------------------------------------------------------------------------------------*/
+@media (max-width: 1440px) {
+    .seccion2{
+        margin: 0 50px;
+        margin-top: 150px;
+    }
+    .seccion3{
+        margin: 0 100px;
+        margin-top: 80px;
+    }
+    .texto{
+        font-size: 35px;
+    }
+    .texto1{
+        font-size: 25px; 
+    }
+}
+/* portatil --------------------------------------------------------------------------------------*/
+@media (max-width: 1024px) {
+    .seccion1{
+        margin: 0 30px;
+    }
+    .seccion2{
+        margin: 0 30px;
+        margin-top: 150px       
+    }
+    .TextResponsi{
+        font-size: 40px;
+    }
+    .nav{
+        gap: 10px;
+    }
+    .imagesPincicpales{
+        flex-direction: column;
+    }
+    .contenedorImagnesPrincipales{
+        width: 40%;       
+    }
+    .img{
+        width: 75% ;
+    }
+    .radioimagen1 {
+        border-radius: 250px 250px 10px 10px;
+    }
+    .radioimagen2{
+        border-radius: 10px 10px 250px 250px;
+    }
+    
+}
+/* MOVIE --------------------------------------------------------------------------------------*/
+@media (max-width: 768px) {
+    .BARRALATERAL{
+        display: none;
+    }
+    .BARRALATERAL1{
+        display: block;
+      }
+      .seccion2{
+        flex-direction: column;
+      }
+      .TextResponsi{
+        font-size: clamp(30px, 2vh, 60px);
+      }
+      .seccion2{
+        margin: 0 20px;
+        margin-top: 50px       
+    }
+    .seccion1{
+        margin: 0 9px;
+    }
+    .titulo{
+        font-size: 25px;
+    }
+    .radioimagen1 {
+        border-radius: 30px 10px 10px 30px;
+    }
+    .radioimagen2{
+        border-radius: 10px 30px 30px 10px;
+    }
+    .imagesPincicpales{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .contenedorImagnesPrincipales{
+        width: 100%;     
+        margin-top: 3pc;  
+    }
+    .img{
+        width: 50% ;
+    }
+    .contendor{
+        flex-wrap: wrap;
+    }
+    .seccion3{
+        margin-left: 20px;
+        margin-top: 80px;
+    }
+    .texto2{
+        font-size: 25px;
+    }
+}

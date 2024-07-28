@@ -1,0 +1,51 @@
+.PADRE{
+  background-color: #0a0a0a;
+}
+
+.font{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal
+}
+.font2{
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+.font3{
+    font-family: "Orbitron", sans-serif;
+}
+.radioimagen1 {
+    border-radius: 250px 10px 10px 250px;
+}
+.radioimagen2{
+    border-radius: 10px 250px 250px 10px;
+}
+.rallita {
+    position: relative;
+  }
+  
+  .rallita::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #3059df;
+    transform-origin: center;
+    transform: translate(-50%, 0) scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .rallita:hover::before {
+    transform: translate(-50%, 0) scaleX(1);
+  }
+  .white-space{
+    white-space: nowrap;
+  }
+  .TextResponsi{
+    font-size: clamp(30px, 6vh, 60px);
+  }
+  .BARRALATERAL1{
+    display: none;
+  }
