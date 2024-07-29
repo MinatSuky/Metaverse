@@ -7,6 +7,7 @@ import img3 from "../src/IMG/premium_photo-1671656349322-41de944d259b.jpg"
 import img4 from "../src/IMG/lenea.png"
 import img5 from "../src/IMG/virtual.jpeg"
 import img6 from "../src/IMG/Ellipse 2.png"
+import img7 from "../src/IMG/vertical 3.png"
 
 
 
@@ -20,7 +21,7 @@ function App() {
           <p className='font text-3xl text-[#1D51FE] titulo'>metaverse</p>
         </div>
         <img className='absolute w-[50%]' src={img1} alt="ellipse" />      {/*  IMG FONDO */}
-        <div className='BARRALATERAL1 z-20'>
+        <div className='BARRALATERAL1 z-30'>
           <div className="drawer drawer-end">
             <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content">
@@ -112,7 +113,7 @@ function App() {
                   <p className='font text-3xl text-white texto2'>Metaverse</p>
                 </div>
                 <p className='text-2xl font-light '>
-                  With virtual technology you 
+                  With virtual technology you
                   can see the digital
                 </p>
               </div>
@@ -150,6 +151,36 @@ function App() {
           </div>
         </section>
       </div>
+      {/* SECCION 4 */}
+      <section>
+        <div className='mx-10 flex justify-center items-center mt-40 relative'>
+          <img className='w-[70%]' src={img7} alt="" />
+          <div className='absolute flex flex-col gap-4 text-center opacity-90'>
+            <p className='text-black text-8xl font-semibold font'>EXPERIENCE</p>
+            <p className='text-white text-8xl font-semibold font'>YOU HAVE NEVER</p>
+            <p className='text-white text-8xl font-semibold font'><span className='text-black mr-1'>FELT</span>BEFORE</p>
+          </div>
+        </div>
+        <div className="flex mt-20">
+          <div className='w-[40%]'>
+            <div className='flex justify-center'>
+              <img alt="" class="bg lm nu c" width="700" height="394" loading="lazy" role="presentation" src="https://miro.medium.com/v2/resize:fit:700/1*manwrxqrCE-VIIcLVkhk_A.gif" />
+            </div>
+            <div className='mx-14 mt-10'>
+              <p className='font font-bold text-white text-3xl'>Join communities</p>
+              <p className='mt-6 text-2xl font'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from It is a long established fact that a reader will be distracted by</p>
+            </div>
+          </div>
+          <div className='w-[50%]'>
+            <p className='mt-6 text-2xl font'>
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+            </p>
+            <div className='flex justify-center mt-5'>
+              <img alt="" className="bg lm nu c" width="940" height="400" loading="lazy" role="presentation" src="https://miro.medium.com/v2/resize:fit:540/1*iZm0gRc-YK-mEaSh6m-ceQ.gif" />
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }

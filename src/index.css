@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 /* portatil L --------------------------------------------------------------------------------------*/
 @media (max-width: 1440px) {
     .seccion2{
