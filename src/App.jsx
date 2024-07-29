@@ -8,12 +8,13 @@ import img4 from "../src/IMG/lenea.png"
 import img5 from "../src/IMG/virtual.jpeg"
 import img6 from "../src/IMG/Ellipse 2.png"
 import img7 from "../src/IMG/vertical 3.png"
-
+import img8 from "../src/IMG/about-img1.webp"
+import img9 from "../src/IMG/linea 2.png"
 
 
 function App() {
   return (
-    <div className="PADRE h-[400vh]">
+    <div className="PADRE h-[500vh]">
       {/* SECCION 1 */}
       <section className='seccion1 mx-28 flex justify-between items-center '>
         <div className='flex items-center gap-5'>
@@ -168,11 +169,11 @@ function App() {
             </div>
             <div className='mx-14 mt-10'>
               <p className='font font-bold text-white text-3xl'>Join communities</p>
-              <p className='mt-6 text-2xl font'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from It is a long established fact that a reader will be distracted by</p>
+              <p className='mt-6 text-2xl font font-medium'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from It is a long established fact that a reader will be distracted by</p>
             </div>
           </div>
           <div className='w-[50%]'>
-            <p className='mt-6 text-2xl font'>
+            <p className='mt-6 text-2xl font font-medium'>
               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
             </p>
             <div className='flex justify-center mt-5'>
@@ -180,6 +181,43 @@ function App() {
             </div>
           </div>
         </div>
+      </section>
+      {/* SECCION 5 */}
+      <section className='mt-40 mx-20'>
+         <div className="flex">
+          <div className='w-[50%] flex justify-center items-center'>
+            <img className='w-[70%]' src={img8} alt="figureRefularVioleta" />
+          </div>
+          <div className='w-[40%]'>
+                <p className='font text-3xl text-zinc-200 mt-10'>Explore Metaverse <br /> Even More</p>
+                <p className='mt-8 font font-normal'>
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or that andomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,.
+                </p>
+                <div className="flex mt-20">
+                  <div className='w-[50%]'>
+                    <p className='text-zinc-200 font'>Join Now</p>
+                    <p className='mt-5'>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.
+                    </p>
+                    <p className="mt-5 flex items-center gap-3 text-blue-700 font-semibold  cursor-pointer">
+                      Explore Now
+                      <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 32 32"><path fill="#1D51FE" d="m21.188 9.28l-1.407 1.44L24.063 15H4v2h20.063l-4.282 4.28l1.407 1.44l6-6l.72-.72l-.72-.72z"/></svg>
+                    </p>
+                  </div>
+                  <img className='mx-14' src={img9} alt="linea2" />
+                  <div className='w-[50%]'>
+                  <p className='text-zinc-200 font'>Own Your Space</p>
+                    <p className='mt-5'>
+                    There are many variations of passages of Lorem and some of the random text material will be Ipsum of the available.
+                    </p>
+                    <p className="mt-5 flex items-center gap-3 text-blue-700 font-semibold cursor-pointer">
+                      Explore Now
+                      <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 32 32"><path fill="#1D51FE" d="m21.188 9.28l-1.407 1.44L24.063 15H4v2h20.063l-4.282 4.28l1.407 1.44l6-6l.72-.72l-.72-.72z"/></svg>
+                    </p>
+                  </div>
+                </div>
+          </div>
+         </div>
       </section>
     </div>
   )
