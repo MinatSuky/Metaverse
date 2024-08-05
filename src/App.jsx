@@ -10,11 +10,13 @@ import img6 from "../src/IMG/Ellipse 2.png"
 import img7 from "../src/IMG/vertical 3.png"
 import img8 from "../src/IMG/about-img1.webp"
 import img9 from "../src/IMG/linea 2.png"
+import img10 from "../src/IMG/Group 53.png"
+
 
 
 function App() {
   return (
-    <div className="PADRE h-[500vh]">
+    <div className="PADRE">
       {/* SECCION 1 */}
       <section className='seccion1 mx-28 flex justify-between items-center '>
         <div className='flex items-center gap-5'>
@@ -153,17 +155,17 @@ function App() {
         </section>
       </div>
       {/* SECCION 4 */}
-      <section>
-        <div className='mx-10 flex justify-center items-center mt-40 relative'>
-          <img className='w-[70%]' src={img7} alt="" />
+      <section className='seccion4'>
+        <div className='mx-10 conteiner4 flex justify-center items-center mt-40 relative'>
+          <img className='w-[70%] imges' src={img7} alt="" />
           <div className='absolute flex flex-col gap-4 text-center opacity-90'>
-            <p className='text-black text-8xl font-semibold font'>EXPERIENCE</p>
-            <p className='text-white text-8xl font-semibold font'>YOU HAVE NEVER</p>
-            <p className='text-white text-8xl font-semibold font'><span className='text-black mr-1'>FELT</span>BEFORE</p>
+            <p className='text-black text-8xl fontexto font-semibold font'>EXPERIENCE</p>
+            <p className='text-white text-8xl fontexto font-semibold font'>YOU HAVE NEVER</p>
+            <p className='text-white text-8xl fontexto font-semibold font'><span className='text-black mr-1'>FELT</span>BEFORE</p>
           </div>
         </div>
-        <div className="flex mt-20">
-          <div className='w-[40%]'>
+        <div className="flex gap-10 conteiner4-1 mt-20">
+          <div className='w-[40%] cont4'>
             <div className='flex justify-center'>
               <img alt="" class="bg lm nu c" width="700" height="394" loading="lazy" role="presentation" src="https://miro.medium.com/v2/resize:fit:700/1*manwrxqrCE-VIIcLVkhk_A.gif" />
             </div>
@@ -172,7 +174,7 @@ function App() {
               <p className='mt-6 text-2xl font font-medium'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from It is a long established fact that a reader will be distracted by</p>
             </div>
           </div>
-          <div className='w-[50%]'>
+          <div className='w-[50%] cont4'>
             <p className='mt-6 text-2xl font font-medium'>
               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
             </p>
@@ -183,41 +185,128 @@ function App() {
         </div>
       </section>
       {/* SECCION 5 */}
-      <section className='mt-40 mx-20'>
-         <div className="flex">
-          <div className='w-[50%] flex justify-center items-center'>
+      <section className='mt-40 bg-[#0a0a0a]'>
+        <div className="flex conteiner5">
+          <div className='w-[50%] cont5 flex justify-center items-center'>
             <img className='w-[70%]' src={img8} alt="figureRefularVioleta" />
           </div>
-          <div className='w-[40%]'>
-                <p className='font text-3xl text-zinc-200 mt-10'>Explore Metaverse <br /> Even More</p>
-                <p className='mt-8 font font-normal'>
-                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or that andomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,.
+          <div className='w-[40%] cont5'>
+            <p className='font text-3xl text-zinc-200 mt-10'>Explore Metaverse <br /> Even More</p>
+            <p className='mt-8 font font-normal'>
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or that andomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,.
+            </p>
+            <div className="flex mt-20">
+              <div className='w-[50%]'>
+                <p className='text-zinc-200 font'>Join Now</p>
+                <p className='mt-5'>
+                  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.
                 </p>
-                <div className="flex mt-20">
-                  <div className='w-[50%]'>
-                    <p className='text-zinc-200 font'>Join Now</p>
-                    <p className='mt-5'>
-                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.
-                    </p>
-                    <p className="mt-5 flex items-center gap-3 text-blue-700 font-semibold  cursor-pointer">
-                      Explore Now
-                      <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 32 32"><path fill="#1D51FE" d="m21.188 9.28l-1.407 1.44L24.063 15H4v2h20.063l-4.282 4.28l1.407 1.44l6-6l.72-.72l-.72-.72z"/></svg>
-                    </p>
-                  </div>
-                  <img className='mx-14' src={img9} alt="linea2" />
-                  <div className='w-[50%]'>
-                  <p className='text-zinc-200 font'>Own Your Space</p>
-                    <p className='mt-5'>
-                    There are many variations of passages of Lorem and some of the random text material will be Ipsum of the available.
-                    </p>
-                    <p className="mt-5 flex items-center gap-3 text-blue-700 font-semibold cursor-pointer">
-                      Explore Now
-                      <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 32 32"><path fill="#1D51FE" d="m21.188 9.28l-1.407 1.44L24.063 15H4v2h20.063l-4.282 4.28l1.407 1.44l6-6l.72-.72l-.72-.72z"/></svg>
-                    </p>
-                  </div>
-                </div>
+                <p className="mt-5 flex items-center gap-3 text-blue-700 font-semibold white-space cursor-pointer">
+                  Explore Now
+                  <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 32 32"><path fill="#1D51FE" d="m21.188 9.28l-1.407 1.44L24.063 15H4v2h20.063l-4.282 4.28l1.407 1.44l6-6l.72-.72l-.72-.72z" /></svg>
+                </p>
+              </div>
+              <img className='mx-14 liena2' src={img9} alt="linea2" />
+              <div className='w-[50%]'>
+                <p className='text-zinc-200 font'>Own Your Space</p>
+                <p className='mt-5'>
+                  There are many variations of passages of Lorem and some of the random text material will be Ipsum of the available.
+                </p>
+                <p className="mt-5 flex items-center gap-3 text-blue-700 font-semibold cursor-pointer">
+                  Explore Now
+                  <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 32 32"><path fill="#1D51FE" d="m21.188 9.28l-1.407 1.44L24.063 15H4v2h20.063l-4.282 4.28l1.407 1.44l6-6l.72-.72l-.72-.72z" /></svg>
+                </p>
+              </div>
+            </div>
           </div>
-         </div>
+        </div>
+      </section>
+      {/* SECCION 6 */}
+      <section>
+        <div className="container6 mx-36 mt-20 flex rounded-3xl bg-zinc-900 justify-center ">  
+          <div className='w-[50%] cont6 flex items-center gap-5 mx-14 mt-3 z-20 py-10'>
+            <img className='rounded-full w-[20%] avatar2' src={img2} alt="avatar" />
+            <div>
+              <p className='font text-xl text-white texto6'>Mordern and Traditional <br /> Costume</p>
+              <p className="mt-5 text-lg texto6 flex items-center gap-1 text-blue-700 font-semibold cursor-pointer">
+                Explore Now
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 32 32"><path fill="#1D51FE" d="m21.188 9.28l-1.407 1.44L24.063 15H4v2h20.063l-4.282 4.28l1.407 1.44l6-6l.72-.72l-.72-.72z" /></svg>
+              </p>
+            </div>
+          </div>
+          <div className='w-[50%] cont6 flex items-center gap-5 mx-14 z-20'>
+            <img className='rounded-full w-[20%] avatar2' src={img3} alt="avatar" />
+            <div>
+              <p className='font text-xl text-white texto6'>Join Over 300+ Groups <br /> Communities</p>
+              <p className="mt-5 text-lg flex items-center gap-1 texto6 text-blue-700 font-semibold cursor-pointer">
+                Explore Now
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 32 32"><path fill="#1D51FE" d="m21.188 9.28l-1.407 1.44L24.063 15H4v2h20.063l-4.282 4.28l1.407 1.44l6-6l.72-.72l-.72-.72z" /></svg>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* SECCION 7 */}
+      <section>
+        <div className='container7 mx-40 mt-40 flex justify-between'>
+          <div>
+            <button className='text-lg bg-[#1D51FE] px-6 py-2 rounded-full text-white font-semibold white-space'>Metaverse</button>
+            <p className='text-7xl text-white texto7'>space for</p>
+            <p className='mt-5 text-8xl font-bold text-white texto7-1'>Everyone.</p>
+          </div>
+          <div className='flex flex-col justify-evenly'>
+            <div className="flex gap-5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="80" viewBox="0 0 24 24"><path fill="#1D51FE" d="M2.2 16.06L3.88 12L2.2 7.94l4.06-1.68L7.94 2.2L12 3.88l4.06-1.68l1.68 4.06l4.06 1.68L20.12 12l1.68 4.06l-4.06 1.68l-1.68 4.06L12 20.12L7.94 21.8l-1.68-4.06z" /></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="45" height="80" viewBox="0 0 16 16"><path fill="#34A2DF" d="m15.9 5.7l-2-3.4L10 4.5V0H6v4.5L2 2.3L0 5.7L3.9 8L0 10.3l2 3.4l4-2.2V16h4v-4.5l3.9 2.2l2-3.4l-4-2.3z" /></svg>
+            </div>
+            <p className='text-4xl text-white font-semibold'>We will Rock You</p>
+            <p className='mt-3 text-xl'>loren ipsum text</p>
+          </div>
+        </div>
+      </section>
+      {/* SECCION footer */}
+      <section>
+        <footer className="footer bg-[#1D51FE] text-base-content p-10 mt-16">
+          <nav>
+            <h6 className="footer-title text-white">  <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 32 32"><path fill="white" d="M23.282 9.01c-2.34-.12-4.42.88-5.78 2.53c0 0-1.53 1.98-1.53 1.97c0 0-1.93 2.53-1.92 2.53l-1.66 2.18l-.13.17c-.95 1.27-2.63 1.98-4.4 1.46a3.923 3.923 0 0 1-2.69-2.88a3.985 3.985 0 0 1 3.87-4.9c1.21 0 2.11.51 2.73 1.05c.66.58 1.67.49 2.21-.21c.47-.61.41-1.49-.15-2.01c-3.16-2.9-9.14-2.24-11.05 1.79c-2.48 5.23 1.3 10.39 6.26 10.39c2.18 0 4.13-.97 5.42-2.53l.43-.56s1.09-1.43 1.09-1.42c0 0 1.93-2.53 1.92-2.53l1.69-2.21l.12-.15c.87-1.18 2.37-1.85 4.02-1.53c1.46.29 2.67 1.43 3.03 2.88c.66 2.63-1.32 5-3.85 5c-1.19 0-2.09-.51-2.71-1.06a1.52 1.52 0 0 0-2.21.22c-.49.64-.4 1.53.2 2.07c.93.83 2.52 1.84 4.72 1.84c4.2 0 7.55-3.69 6.98-8c-.44-3.32-3.28-5.92-6.61-6.09" /></svg></h6>
+            <p><p className='font text-xl text-white titulo'>metaverse <span className='font-normal text-lg'> is a variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration in some form, <br /> by injected humour, or randomised words.</span></p></p>
+            <div className="flex gap-5 mt-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 896 1664"><path fill="#ffffff" d="M895 12v264H738q-86 0-116 36t-30 108v189h293l-39 296H592v759H286V905H31V609h255V391q0-186 104-288.5T667 0q147 0 228 12"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#ffffff" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 16 16"><path fill="#ffffff" d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011a.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0a8 8 0 0 0-.412-.833a.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02a.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595a.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085a8 8 0 0 1-1.249.594a.05.05 0 0 0-.03.03a.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019a13.2 13.2 0 0 0 4.001-2.02a.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613c0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613c0 .888-.631 1.612-1.438 1.612"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#ffffff" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584l-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+            </div>
+
+          </nav>
+          <nav>
+            <h6 className="footer-title text-white">Company</h6>
+            <a className="link link-hover">About us</a>
+            <a className="link link-hover">Contact</a>
+            <a className="link link-hover">Jobs</a>
+            <a className="link link-hover">Press kit</a>
+          </nav>
+          <nav>
+            <h6 className="footer-title text-white">Legal</h6>
+            <a className="link link-hover">Terms of use</a>
+            <a className="link link-hover">Privacy policy</a>
+            <a className="link link-hover">Cookie policy</a>
+          </nav>
+          <form>
+            <h6 className="footer-title text-white">Newsletter</h6>
+            <fieldset className="form-control w-80">
+              <label className="label">
+                <span className="label-text">Enter your email address</span>
+              </label>
+              <div className="join">
+                <input
+                  type="text"
+                  placeholder="username@site.com"
+                  className="input input-bordered join-item" />
+                <button className="btn btn-primary join-item">Subscribe</button>
+              </div>
+            </fieldset>
+          </form>
+        </footer> 
       </section>
     </div>
   )

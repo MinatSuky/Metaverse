@@ -19,6 +19,20 @@
     .texto1{
         font-size: 25px; 
     }
+    .fontexto{
+        font-size: 70px;
+    }
+    .container6{
+        margin: 0 50px;
+        margin-top: 70px;
+    }
+    .avatar2{
+        width: 30%;
+    }
+    .container7{
+        margin: 0 60px;
+        margin-top: 80px;
+    }
 }
 /* portatil --------------------------------------------------------------------------------------*/
 @media (max-width: 1024px) {
@@ -50,7 +64,27 @@
     .radioimagen2{
         border-radius: 10px 10px 250px 250px;
     }
-    
+    .fontexto{
+        font-size: 50px;
+    }
+    .conteiner4-1{
+        flex-direction: column;
+        margin: 0 10px;
+        margin-top: 20px;
+      }
+      .cont4{
+          width: 100%;
+      }
+      .conteiner5{
+        flex-direction: column;
+        margin: 0 20px;
+      }
+      .cont5{
+        width: 100%;
+      }
+      .liena2{
+        margin: 0 20px;
+      }
 }
 /* MOVIE --------------------------------------------------------------------------------------*/
 @media (max-width: 768px) {
@@ -102,5 +136,38 @@
     }
     .texto2{
         font-size: 25px;
+    }
+    .fontexto{
+        font-size: 30px 
+    }
+    .conteiner4{
+        margin: 0 0 ;
+       margin-top: 40px;
+    }
+    .imges{
+        width: 100%;
+    }
+    .container6{
+        flex-direction: column;
+        margin: 0 10px;
+        margin-top: 50px;
+    }
+    .cont6{
+        width: 80%;
+    }
+    .texto6{
+        font-size: 15px;
+        
+    }
+    .container7{
+        flex-direction: column;
+        margin: 0 20px;
+        margin-top: 80px;
+    }
+    .texto7{
+        font-size: 40px
+    }
+    .texto7-1{
+        font-size:  50px
     }
 }
